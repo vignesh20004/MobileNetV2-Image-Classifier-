@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and model checkpoints
+*.log
+*.h5
+*.ckpt
+*.pb
+*.tfrecord
+logs/
+checkpoints/
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Dataset (if very large or private)
+dataset/
